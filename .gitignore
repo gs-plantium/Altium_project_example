@@ -1,0 +1,62 @@
+# ------------------------
+# Plantium gitignore file
+# ------------------------
+# v1.0 - Initial version.
+# Place in every project's main folder
+
+# Various Altium files
+*.PrjPCBStructure
+*.SchDocPreview
+*.PcbDocPreview
+__Previews
+__Previews/
+*/__Previews/
+**/__Previews/
+*.Dat
+*.REP 
+*.TLT
+*.LOG
+*.log
+*.htm
+*.$$$
+Status\ Report.txt
+
+# Auto-conversion notices
+*.PcbDoc.htm
+
+# Access lock file for dbLib sources
+**/*.ldb
+
+#useless dirs
+Project\ Outputs
+Project\ Outputs*
+Project\ Outputs*/
+Project\ Logs
+Project\ Logs*
+Project\ Logs*/
+Project Outputs for*
+
+#History
+History
+History/
+*/History/
+**/History/*
+
+#Exports, but not manual ones
+exports/*
+!exports/manual
+
+#Python stuff
+scripts/__pycache__/
+*.bak
+*.dwl
+*.dwl2
+
+# Ignore autosave files (anything that begins with a tilde)
+~*
+*.~\([0-9]*\)*
+
+# Lock files sometimes left behind
+.~lock.*
+
+temp/
