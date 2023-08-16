@@ -1,0 +1,5 @@
+DRC Rules Export File for PCB: C:\Users\Lescudero\Desktop\Proyectos\01 - Allochis - ecoISOBUS\HW-Allochis\Allochis_isobus_adapter_board_v1.0\PCB\ALLOCHIS_ADAPTER_v1.0.PcbDoc
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=3.94
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=10.00
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=10.00
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
