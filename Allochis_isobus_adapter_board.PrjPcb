@@ -43,23 +43,6 @@ ReleaseFolderPath=C:\repo\Altium_project_example\PRODUCTION
 ReleaseZipPath=[OutputPath][ProjectName].zip
 
 [Document1]
-DocumentPath=PCB\ALLOCHIS_ADAPTER_v1.0.PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=WVHWDEWV
-
-[Document2]
 DocumentPath=ProductionFormats\PlantiumFormat.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -76,7 +59,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OOBWAJHQ
 
-[Document3]
+[Document2]
 DocumentPath=ProductionFormats\PlantiumFormat.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -93,24 +76,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GIVTGWOH
 
-[Document4]
-DocumentPath=PCB\ALLOCHIS_ADAPTER_panelizado_v1.0.PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=MLFQDRTF
-
-[Document5]
+[Document3]
 DocumentPath=OutJobs\FAB_FILES.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -127,7 +93,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document6]
+[Document4]
 DocumentPath=SCH\ALLOCHIS_ADAPTER.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -144,7 +110,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LARWDYFB
 
-[Document7]
+[Document5]
 DocumentPath=README.md
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -161,8 +127,42 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document6]
+DocumentPath=PCB\ALLOCHIS_ADAPTER.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=WVHWDEWV
+
+[Document7]
+DocumentPath=PCB\ALLOCHIS_ADAPTER_panelizado.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [Document8]
-DocumentPath=PCB\ALLOCHIS_ADAPTER_v1.0.PCBDwf
+DocumentPath=PCB\ALLOCHIS_ADAPTER.PCBDwf
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0

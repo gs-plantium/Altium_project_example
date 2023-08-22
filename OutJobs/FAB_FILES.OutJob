@@ -19,7 +19,7 @@ Name=FAB_FILES.OutJob
 Description=
 TargetOutputMedium=BOM
 VariantName=[No Variations]
-VariantScope=2
+VariantScope=1
 CurrentConfigurationName=Sources
 TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=0
@@ -71,7 +71,7 @@ Configuration1_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowPr
 OutputType2=Final
 OutputName2=Fabrication Prints
 OutputCategory2=Fabrication
-OutputDocumentPath2=ALLOCHIS_ADAPTER_panelizado_v1.0.PcbDoc
+OutputDocumentPath2=ALLOCHIS_ADAPTER_panelizado.PcbDoc
 OutputVariantName2=
 OutputEnabled2=0
 OutputEnabled2_OutputMedium1=0
@@ -143,7 +143,7 @@ PcbPrintPreferences2=
 OutputType3=Pick Place
 OutputName3=P&P_TOP
 OutputCategory3=Assembly
-OutputDocumentPath3=ALLOCHIS_ADAPTER_panelizado_v1.0.PcbDoc
+OutputDocumentPath3=ALLOCHIS_ADAPTER_panelizado.PcbDoc
 OutputVariantName3=
 OutputEnabled3=0
 OutputEnabled3_OutputMedium1=0
@@ -163,7 +163,7 @@ Configuration3_Item1=Record=PickPlaceView|Units=Metric|GenerateCSVFormat=True|Ge
 OutputType4=Pick Place
 OutputName4=P&P_BOTTOM
 OutputCategory4=Assembly
-OutputDocumentPath4=ALLOCHIS_ADAPTER_panelizado_v1.0.PcbDoc
+OutputDocumentPath4=ALLOCHIS_ADAPTER_panelizado.PcbDoc
 OutputVariantName4=
 OutputEnabled4=0
 OutputEnabled4_OutputMedium1=0
@@ -183,7 +183,7 @@ Configuration4_Item1=Record=PickPlaceView|Units=Metric|GenerateCSVFormat=True|Ge
 OutputType5=Composite
 OutputName5=Composite Drawing
 OutputCategory5=Documentation
-OutputDocumentPath5=ALLOCHIS_ADAPTER_panelizado_v1.0.PcbDoc
+OutputDocumentPath5=ALLOCHIS_ADAPTER_panelizado.PcbDoc
 OutputVariantName5=
 OutputEnabled5=0
 OutputEnabled5_OutputMedium1=0
@@ -237,7 +237,7 @@ PcbPrintPreferences5=SubsititueFont_Default=True|SubsititueFont_Serif=True|Subsi
 OutputType6=Gerber
 OutputName6=Gerber Files
 OutputCategory6=Fabrication
-OutputDocumentPath6=ALLOCHIS_ADAPTER_panelizado_v1.0.PcbDoc
+OutputDocumentPath6=ALLOCHIS_ADAPTER_panelizado.PcbDoc
 OutputVariantName6=
 OutputEnabled6=0
 OutputEnabled6_OutputMedium1=0
@@ -257,7 +257,7 @@ Configuration6_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayer
 OutputType7=NC Drill
 OutputName7=NC Drill Files
 OutputCategory7=Fabrication
-OutputDocumentPath7=ALLOCHIS_ADAPTER_panelizado_v1.0.PcbDoc
+OutputDocumentPath7=ALLOCHIS_ADAPTER_panelizado.PcbDoc
 OutputVariantName7=
 OutputEnabled7=0
 OutputEnabled7_OutputMedium1=0
@@ -277,7 +277,7 @@ Configuration7_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|Ge
 OutputType8=Gerber
 OutputName8=Glue Points
 OutputCategory8=Fabrication
-OutputDocumentPath8=ALLOCHIS_ADAPTER_panelizado_v1.0.PcbDoc
+OutputDocumentPath8=ALLOCHIS_ADAPTER_panelizado.PcbDoc
 OutputVariantName8=
 OutputEnabled8=0
 OutputEnabled8_OutputMedium1=0
@@ -297,7 +297,7 @@ Configuration8_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayer
 OutputType9=BOM_PartType
 OutputName9=Bill of Materials
 OutputCategory9=Report
-OutputDocumentPath9=[ActiveBOM Document]
+OutputDocumentPath9=
 OutputVariantName9=
 OutputEnabled9=1
 OutputEnabled9_OutputMedium1=0
